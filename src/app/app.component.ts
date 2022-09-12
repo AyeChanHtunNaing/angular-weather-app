@@ -27,11 +27,11 @@ export class AppComponent implements OnInit{
 
   private getWeatherData(cityName:string){
     this.WeatherService.getWeatherData(cityName)
-      .subscribe({
-        next:(response) =>{
-          this.weatherData = response
-          console.log(response);
-        }
-      });
+    .subscribe({
+      next:(response) =>{
+        this.weatherData = response
+        console.log(response);
+      }
+    });
   }
 }

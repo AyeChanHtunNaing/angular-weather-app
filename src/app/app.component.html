@@ -1,7 +1,7 @@
 <div class="search">
   <form #form="ngForm" (submit)="onsubmit()">
     <input type="text" placeholder="plz enter the city name" name="city"
-           [(ngModel)]="cityName">
+    [(ngModel)]="cityName">
   </form>
 </div>
 <div class = "container" *ngIf="weatherData">
@@ -16,13 +16,13 @@
   </div>
   <div class="lower-data">
     <div class="more-info-label">
-      More Information
+      More Infomation
     </div>
     <div class="more-info-container">
       <div class="info-block">
         <div class="info-block-label">
           <img src="../assets/min.jpeg" >
-          <span>tem</span>
+          <span>Min Tem</span>
         </div>
         <div class="info-block-value">
           {{weatherData.current.temp_c | number:'1.0-0'}}°C
@@ -32,7 +32,7 @@
       <div class="info-block">
         <div class="info-block-label">
           <img src="../assets/max.png" >
-          <span>feel_tem</span>
+          <span>Max Tem</span>
         </div>
         <div class="info-block-value">
           {{weatherData.current.feelslike_c | number:'1.0-0'}}°C

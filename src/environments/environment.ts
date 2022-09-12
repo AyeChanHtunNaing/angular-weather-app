@@ -4,11 +4,12 @@
 
 export const environment = {
   production: false,
-  weatherApiBaseUrl: 'https://community-open-weather-map.p.rapidapi.com/weather',
-  XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
-  XRapidAPIHostHeaderValue: 'community-open-weather-map.p.rapidapi.com',
-  XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
-  XRapidAPIKeyHeaderValue: 'YOUR_KEY'
+  weatherApiBaseUrl:'https://weatherapi-com.p.rapidapi.com/current.json',
+  XRapidAPIHostHeaderName:'X-RapidAPI-Host',
+  XRapidAPIHostHeaderValue:'weatherapi-com.p.rapidapi.com',
+  XRapidAPIKeyHeaderName:'X-RapidAPI-Key',
+  XRapidAPIKeyHeaderValue:'33cfdc0999mshae7ddc7f1c84010p12acc0jsn6eefe1a60dab'
+
 };
 
 /*
